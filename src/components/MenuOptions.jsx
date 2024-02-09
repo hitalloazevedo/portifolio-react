@@ -1,18 +1,18 @@
 import React from "react";
 
 const menusOptions = [
-  { option: "About", linkto: "#" },
-  { option: "Portifolio", linkto: "#" },
-  { option: "Skills", linkto: "#" },
-  { option: "Contact", linkto: "#" },
+  { id: 1, option: "About", linkto: "#" },
+  { id: 2,option: "Portifolio", linkto: "#" },
+  { id: 3,option: "Skills", linkto: "#" },
+  { id: 4,option: "Contact", linkto: "#" },
 ];
 
 const MenuOptions = ({ scrollClass }) => {
   return (
     <nav>
       <ul>
-        {menusOptions.map(({ option, linkto }) => (
-          <li>
+        {menusOptions.map(({ id, option, linkto }) => (
+          <li key={id}>
             <a href={linkto} className={scrollClass}>
               {option}
             </a>
