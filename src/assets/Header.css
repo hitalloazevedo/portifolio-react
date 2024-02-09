@@ -9,6 +9,12 @@
 }
 
 .scrollb {
+    color: #ebebeb !important;
+}
+
+.navBarScroll {
+    background-color: var(--dark-gray);
+    top: 5rem !important;
     color: #ebebeb;
 }
 
@@ -57,5 +63,25 @@
 }
 
 .navMenu {
-    display: none;
+    position: absolute;
+    width: 100%;
+    top: 6em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 0;
+
+    transition: .3s;
+}
+
+.navMenu nav ul li {
+    list-style: none;
+}
+
+.navMenu nav ul li a{
+    text-decoration: none;
+    color: var(--dark-gray);
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 30px;
 }

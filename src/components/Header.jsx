@@ -3,25 +3,35 @@ import "../assets/Media.css";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faLaptopCode } from "@fortawesome/free-solid-svg-icons";
 import { faBars } from "@fortawesome/free-solid-svg-icons";
+import MenuOptions from "./MenuOptions";
 
 import React, { useState } from "react";
 
 const Header = ({ children }) => {
-  const [headerState, setHeaderState] = useState('');
-  const [scrollClass, setScrollClass] = useState('')
+  const [headerState, setHeaderState] = useState("");
+  const [scrollClass, setScrollClass] = useState("");
+  const [navBarScroll, setNavBarScroll] = useState("");
+
   window.addEventListener("scroll", () => {
     window.scrollY > 80
-      ? setHeaderState("scroll") & setScrollClass('scrollb')
+      ? setHeaderState("scroll") &
+        setScrollClass("scrollb") &
+        setNavBarScroll("navBarScroll")
       : window.scrollX < 80
-      ? setHeaderState("") & setScrollClass('')
-      : setHeaderState("scroll") & setScrollClass('scrollb');
+      ? setHeaderState("") & setScrollClass("") & setNavBarScroll("")
+      : setHeaderState("scroll") &
+        setScrollClass("scrollb") &
+        setNavBarScroll("navBarScroll");
   });
 
   return (
     <>
       <div className={`header ${headerState}`}>
         <div className="logo">
-          <FontAwesomeIcon className={`laptonIcon ${scrollClass}`} icon={faLaptopCode} />
+          <FontAwesomeIcon
+            className={`laptonIcon ${scrollClass}`}
+            icon={faLaptopCode}
+          />
           <h1 className={`${scrollClass}`}>Hitallo Azevedo</h1>
         </div>
 
@@ -29,28 +39,11 @@ const Header = ({ children }) => {
           <FontAwesomeIcon icon={faBars} />
         </div>
 
-        <div className="navMenu">
-          <nav>
-            <ul>
-              <li>
-                <a href="#">Home</a>
-              </li>
-              <li>
-                <a href="#">About</a>
-              </li>
-              <li>
-                <a href="#">Portifolio</a>
-              </li>
-              <li>
-                <a href="#">Skills</a>
-              </li>
-              <li>
-                <a href="#">Contact</a>
-              </li>
-            </ul>
-          </nav>
+        <div className={`navMenu ${navBarScroll}`}>
+          <MenuOptions scrollClass={scrollClass}></MenuOptions>
         </div>
       </div>
+
       {children}
     </>
   );
