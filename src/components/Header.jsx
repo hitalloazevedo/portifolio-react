@@ -11,6 +11,7 @@ const Header = ({ children }) => {
   const [headerState, setHeaderState] = useState("");
   const [scrollClass, setScrollClass] = useState("");
   const [navBarScroll, setNavBarScroll] = useState("");
+  const [floatMenu, setFloatMenu] = useState('deactive')
 
   window.addEventListener("scroll", () => {
     window.scrollY > 80
@@ -35,11 +36,13 @@ const Header = ({ children }) => {
           <h1 className={`${scrollClass}`}>Hitallo Azevedo</h1>
         </div>
 
-        <div className={`menuIcon ${headerState}`}>
-          <FontAwesomeIcon icon={faBars} />
+        <div className={`menuIcon ${headerState}`} onClick={() => {
+          floatMenu !== 'active' ? setFloatMenu('active') : setFloatMenu('deactive')
+        }}>
+          <FontAwesomeIcon icon={faBars}/>
         </div>
 
-        <div className={`navMenu ${navBarScroll}`}>
+        <div className={`navMenu ${navBarScroll} ${floatMenu}`}>
           <MenuOptions scrollClass={scrollClass}></MenuOptions>
         </div>
       </div>

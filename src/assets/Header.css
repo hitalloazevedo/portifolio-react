@@ -12,6 +12,14 @@
     color: #ebebeb !important;
 }
 
+.active {
+    display: flex !important;
+}
+
+.deactive {
+    display: none !important;
+}
+
 .navBarScroll {
     background-color: var(--dark-gray);
     top: 5rem !important;
