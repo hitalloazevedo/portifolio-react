@@ -1,0 +1,61 @@
+:root {
+    --dark-gray: #5b5b5b;
+}
+
+.scroll {
+    background-color: var(--dark-gray);
+    color: #ebebeb;
+    height: 5em !important;
+}
+
+.scrollb {
+    color: #ebebeb;
+}
+
+.header {
+    height: 6em;
+    position: fixed;
+    top: 0;
+    width: 100%;
+
+    display: flex;
+    justify-content: center;
+
+    transition: .3s;
+}
+
+.logo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+
+    width: 100%;
+
+    color: var(--dark-gray);
+}
+
+.logo h1 {
+    font-size: 1.2rem;
+}
+
+.laptopIcon {
+    font-size: 1.1rem;
+}
+
+.menuIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    height: 6em;
+    left: 30px;
+
+    background-color: transparent;
+
+    transition: .3s;
+}
+
+.navMenu {
+    display: none;
+}
