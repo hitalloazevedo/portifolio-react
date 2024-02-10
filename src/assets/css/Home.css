@@ -3,7 +3,6 @@
 }
 
 .home {
-    background-color: rgb(153, 180, 204);
     width: 100%;
     min-height: 50vh;
     height: 100%;
@@ -46,4 +45,8 @@
     width: 90%;
     margin-left: 10px;
     padding-top: 15px;
+}
+
+.gif {
+    display: none;
 }
