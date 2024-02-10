@@ -2,6 +2,9 @@ import React from 'react'
 import '../assets/css/Home.css'
 import Console from './Console'
 import SocialIcons from './SocialIcons'
+import '../assets/css/Media-Home.css'
+import gif from '../assets/images/Programmer.gif'
+
 
 const Home = () => {
   return (
@@ -19,10 +22,11 @@ const Home = () => {
               <SocialIcons icon={'linkedin'} link={'https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/'}/>
             </div>
 
-            <aside>
-
-            </aside>
         </div>
+        <aside>
+          <img src={gif} className='gif'/>
+          {/* <a href="https://storyset.com/web">Web illustrations by Storyset</a> */}
+        </aside>
     </section>
   )
 }
