@@ -1,0 +1,8 @@
+:root {
+    --dark-gray: #5b5b5b;
+}
+
+.icon {
+    color: var(--dark-gray);
+    font-size: 2rem;
+}
