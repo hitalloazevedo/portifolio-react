@@ -1,11 +1,13 @@
-import './assets/App.css'
-import './assets/Globals.css'
-import Header from './components/Header'
+import './assets/css/App.css'
+import './assets/css/Globals.css'
+import Home from './components/Home'
 
 function App() {
   return (
     <div className='app'>
-      <h1 style={{marginTop: '5em'}}>hsdlf</h1>
+      <main>
+        <Home></Home>
+      </main>
     </div>
   )
 }
