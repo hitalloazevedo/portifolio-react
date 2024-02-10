@@ -140,6 +140,10 @@
         width: 70%;
         max-width: 380px;
     }
+
+    .storyset-link {
+        display: block;
+    }
 }
 
 @media screen and (min-width: 1501px) {
@@ -148,8 +152,6 @@
         display: flex;
         justify-content: center;
         align-items: center;
-
-        /* background-color: rgb(228, 152, 228); */
     }
 
     .content {
@@ -197,5 +199,9 @@
         display: block;
         width: 70%;
         max-width: 380px;
+    }
+
+    .storyset-link {
+        display: block;
     }
 }

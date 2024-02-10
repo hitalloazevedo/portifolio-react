@@ -59,4 +59,6 @@ aside {
 .storyset-link {
     text-decoration: none;
     color: var(--dark-gray);
+    display: none;
+    font-size: .8rem;
 }
