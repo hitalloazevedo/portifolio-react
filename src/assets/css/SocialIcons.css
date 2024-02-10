@@ -5,4 +5,10 @@
 .icon {
     color: var(--dark-gray);
     font-size: 2rem;
+    transition: .4s;
+}
+
+.icon:hover {
+    opacity: .7;
+    transform: translate(3px, -3px);
 }
