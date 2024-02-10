@@ -36,13 +36,20 @@ const Header = ({ children }) => {
           <h1 className={`${scrollClass}`}>Hitallo Azevedo</h1>
         </div>
 
-        <div className={`menuIcon ${headerState}`} onClick={() => {
-          floatMenu !== 'active' ? setFloatMenu('active') : setFloatMenu('deactive')
+        <div className={`menuIcon ${headerState}`} onClick={(e) => {
+          const navMenu = document.querySelector('.navMenu')
+          if (navMenu.classList.contains('active')) {
+            navMenu.classList.remove('active')
+            navMenu.classList.add('deactive')
+          } else {
+            navMenu.classList.add('active')
+            navMenu.classList.remove('deactive')
+          }
         }}>
           <FontAwesomeIcon icon={faBars}/>
         </div>
 
-        <div className={`navMenu ${navBarScroll} ${floatMenu}`}>
+        <div className={`navMenu ${navBarScroll} deactive`}>
           <MenuOptions scrollClass={scrollClass}></MenuOptions>
         </div>
       </div>
