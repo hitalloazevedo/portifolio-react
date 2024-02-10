@@ -50,3 +50,13 @@
 .gif {
     display: none;
 }
+
+aside {
+    display: flex;
+    flex-direction: column;
+}
+
+.storyset-link {
+    text-decoration: none;
+    color: var(--dark-gray);
+}

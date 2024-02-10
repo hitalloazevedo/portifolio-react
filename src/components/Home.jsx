@@ -25,7 +25,7 @@ const Home = () => {
         </div>
         <aside>
           <img src={gif} className='gif'/>
-          {/* <a href="https://storyset.com/web">Web illustrations by Storyset</a> */}
+          <a href="https://storyset.com/web" target='_blank' className='storyset-link'>Web illustrations by Storyset</a>
         </aside>
     </section>
   )
