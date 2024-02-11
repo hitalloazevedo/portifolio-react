@@ -4,9 +4,13 @@
 
 .home {
     width: 100%;
-    min-height: 50vh;
+    min-height: 55vh;
     height: 100%;
     margin-top: 7em;
+
+    /* background-color: #f7d4d4; */
+
+    scroll-margin-top: 7rem;
 }
 
 .content {
@@ -16,7 +20,8 @@
     justify-content: center;
     align-items: center;
 
-    height: 400px;
+    height: 600px;
+    width: 100%;
 }
 
 .content article {
