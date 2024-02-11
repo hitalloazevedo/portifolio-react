@@ -1,0 +1,11 @@
+.swiper {
+    height: 500px;
+    width: 90%;
+    max-width: 380px;
+}
+
+.swiper-slide {
+    background-color: coral;
+    max-width: 400px;
+    min-width: 320px;
+}
