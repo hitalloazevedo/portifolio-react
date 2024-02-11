@@ -111,13 +111,14 @@
         align-items: center;
     
         min-height: 60vh;
+        height: 80vh;
 
         width: 100%;
     }
     
     .content-about {
         width: 85%;
-        max-width: 800px;
+        max-width: 1200px;
 
         display: flex;
         gap: 50px;
