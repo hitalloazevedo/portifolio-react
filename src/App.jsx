@@ -3,6 +3,8 @@ import './assets/css/Globals.css'
 import Home from './components/Home'
 import About from './components/About'
 import Portifolio from './components/Portifolio'
+import Skills from './components/Skills'
+import Contact from './components/Contact'
 
 function App() {
   return (
@@ -11,6 +13,8 @@ function App() {
         <Home></Home>
         <About></About>
         <Portifolio></Portifolio>
+        <Skills></Skills>
+        <Contact></Contact>
       </main>
     </div>
   )
