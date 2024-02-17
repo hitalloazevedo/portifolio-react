@@ -4,19 +4,19 @@
 
 .skill-card {
   background-color: #ebebeb;
-  width: 130px;
-  height: 130px;
+  width: 120px;
+  height: 120px;
   box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.425);
   border-radius: 20px;
 
   display: flex;
   flex-direction: column;
 
-  transition: 0.4s ease;
+  transition: 0.3s ease;
 }
 
 .skill-card:hover {
-  transform: scale(1.05);
+  transform: scale(1.04);
   background-color: #ebebeb05;
 }
 
@@ -28,7 +28,7 @@
 
 .skill-card .icon {
   margin-top: 14px;
-  height: 4.3rem;
+  height: 4rem;
 }
 
 .skill-card .icon:hover {
