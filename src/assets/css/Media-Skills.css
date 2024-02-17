@@ -1,37 +1,36 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .soft-skills header h3 {
-        font-size: 1.5rem;
-        width: 125px;
-    }
+  .soft-skills header h3 {
+    font-size: 1.5rem;
+    width: 125px;
+  }
 
-    .soft-skills div ul li {
-        font-size: 1.3rem;
-        font-weight: 500;
-    }
+  .soft-skills div ul li {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
 
-    .skills header h2{
-        font-size: 1.7rem;
-    }
+  .skills header h2 {
+    font-size: 1.7rem;
+  }
 }
 @media screen and (min-width: 1025px) {
-    .skills {
-        gap: 80px;
-    }
+  .skills {
+    gap: 80px;
+  }
 
-    .soft-skills header h3 {
-        font-size: 1.5rem;
-        width: 125px;
-    }
+  .soft-skills header h3 {
+    font-size: 1.5rem;
+    width: 125px;
+  }
 
-    .soft-skills div ul li {
-        font-size: 1.3rem;
-        font-weight: 500;
-    }
+  .soft-skills div ul li {
+    font-size: 1.3rem;
+    font-weight: 500;
+  }
 
-    .skills header h2{
-        font-size: 1.7rem;
-    }
+  .skills header h2 {
+    font-size: 1.7rem;
+  }
 }

@@ -1,29 +1,29 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .portifolio {
-        gap: 90px;
-    }
+  .portifolio {
+    gap: 90px;
+  }
 
-    .portifolio header h2 {
-        font-size: 1.7rem;
-    }
+  .portifolio header h2 {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .portifolio {
-        gap: 100px;
-    }
+  .portifolio {
+    gap: 100px;
+  }
 
-    .portifolio header h2 {
-        font-size: 1.7rem;
-    }
+  .portifolio header h2 {
+    font-size: 1.7rem;
+  }
 }
 
 @media screen and (min-width: 1025px) {
-    .portifolio {
-        gap: 110px;
-    }
+  .portifolio {
+    gap: 110px;
+  }
 
-    .portifolio header h2 {
-        font-size: 1.7rem;
-    }
+  .portifolio header h2 {
+    font-size: 1.7rem;
+  }
 }

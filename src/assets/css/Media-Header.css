@@ -1,162 +1,162 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .menuIcon {
-        display: none;
-    }
+  .menuIcon {
+    display: none;
+  }
 
-    .navMenu {
-        position: relative;
-        display: block !important;
-        top: 0;
+  .navMenu {
+    position: relative;
+    display: block !important;
+    top: 0;
 
-        width: 70%;
-    }
+    width: 70%;
+  }
 
-    .navMenu nav ul {
-        display: flex;
-        justify-content: space-around;
-    }
+  .navMenu nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .navMenu nav ul li {
-        display: inline-block;
-    }
+  .navMenu nav ul li {
+    display: inline-block;
+  }
 
-    .navMenu nav ul li a {
-        font-size: 1rem;
-    }
+  .navMenu nav ul li a {
+    font-size: 1rem;
+  }
 
-    .navBarScroll {
-        background-color: transparent;
-        top: 0 !important;
-    }
+  .navBarScroll {
+    background-color: transparent;
+    top: 0 !important;
+  }
 
-    .logo {
-        width: 30%;
-    }
+  .logo {
+    width: 30%;
+  }
 
-    .logo h1 {
-        width: 85px;
-    }
+  .logo h1 {
+    width: 85px;
+  }
 
-    .svg-inline--fa {
-        height: 2rem;
-    }
+  .svg-inline--fa {
+    height: 2rem;
+  }
 }
 
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .menuIcon {
-        display: none;
-    }
+  .menuIcon {
+    display: none;
+  }
 
-    .navMenu {
-        position: relative;
-        display: block !important;
-        top: 0;
+  .navMenu {
+    position: relative;
+    display: block !important;
+    top: 0;
 
-        width: 70%;
-    }
+    width: 70%;
+  }
 
-    .navMenu nav ul {
-        display: flex;
-        justify-content: space-around;
-    }
+  .navMenu nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .navMenu nav ul li {
-        display: inline-block;
-    }
+  .navMenu nav ul li {
+    display: inline-block;
+  }
 
-    .navMenu nav ul li a {
-        font-size: 1.1rem;
-        font-weight: 700;
-    }
+  .navMenu nav ul li a {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
 
-    .navBarScroll {
-        background-color: transparent;
-        top: 0 !important;
-    }
+  .navBarScroll {
+    background-color: transparent;
+    top: 0 !important;
+  }
 
-    .logo {
-        width: 30%;
-    }
+  .logo {
+    width: 30%;
+  }
 
-    .logo h1 {
-        font-size: 1.3rem;
-        width: 85px;
-    }
+  .logo h1 {
+    font-size: 1.3rem;
+    width: 85px;
+  }
 
-    .svg-inline--fa {
-        height: 2rem;
-    }
+  .svg-inline--fa {
+    height: 2rem;
+  }
 }
 
 @media screen and (min-width: 1025px) {
-    .header {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-    }
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
 
-    .menuIcon {
-        display: none;
-    }
+  .menuIcon {
+    display: none;
+  }
 
-    .navMenu {
-        position: relative;
-        display: flex !important;
-        justify-content: center;
-        align-items: center;
-        top: 0;
+  .navMenu {
+    position: relative;
+    display: flex !important;
+    justify-content: center;
+    align-items: center;
+    top: 0;
 
-        width: 70%;
-    }
+    width: 70%;
+  }
 
-    .navMenu nav {
-        width: 60%;
-    }
+  .navMenu nav {
+    width: 60%;
+  }
 
-    .navMenu nav ul {
-        display: flex;
-        justify-content: space-around;
-    }
+  .navMenu nav ul {
+    display: flex;
+    justify-content: space-around;
+  }
 
-    .navMenu nav ul li {
-        display: inline-block;
-    }
+  .navMenu nav ul li {
+    display: inline-block;
+  }
 
-    .navMenu nav ul li a {
-        font-size: 1.2rem;
-        font-weight: 700;
-    }
+  .navMenu nav ul li a {
+    font-size: 1.2rem;
+    font-weight: 700;
+  }
 
-    .navBarScroll {
-        background-color: transparent;
-        top: 0 !important;
-    }
+  .navBarScroll {
+    background-color: transparent;
+    top: 0 !important;
+  }
 
-    .logo {
-        width: 30%;
-    }
+  .logo {
+    width: 30%;
+  }
 
-    .logo h1 {
-        font-size: 1.4rem;
-        width: 182px;
-    }
+  .logo h1 {
+    font-size: 1.4rem;
+    width: 182px;
+  }
 
-    .svg-inline--fa {
-        height: 2rem;
-    }
+  .svg-inline--fa {
+    height: 2rem;
+  }
 }

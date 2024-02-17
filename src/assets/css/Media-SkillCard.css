@@ -1,29 +1,29 @@
 @media screen and (min-width: 481px) and (max-width: 768px) {
-    .skill-card .icon {
-        height: 4.8rem !important;
-    }
+  .skill-card .icon {
+    height: 4.8rem !important;
+  }
 
-    .skill-name {
-        font-size: 1.2rem;
-    }
+  .skill-name {
+    font-size: 1.2rem;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .skill-card .icon {
-        height: 4.8rem !important;
-    }
+  .skill-card .icon {
+    height: 4.8rem !important;
+  }
 
-    .skill-name {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
+  .skill-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }
 @media screen and (min-width: 1025px) {
-    .skill-card .icon {
-        height: 4.8rem !important;
-    }
+  .skill-card .icon {
+    height: 4.8rem !important;
+  }
 
-    .skill-name {
-        font-size: 1.2rem;
-        font-weight: 500;
-    }
+  .skill-name {
+    font-size: 1.2rem;
+    font-weight: 500;
+  }
 }

@@ -1,14 +1,14 @@
-import './assets/css/App.css'
-import './assets/css/Globals.css'
-import Home from './components/Home'
-import About from './components/About'
-import Portifolio from './components/Portifolio'
-import Skills from './components/Skills'
-import Contact from './components/Contact'
+import "./assets/css/App.css";
+import "./assets/css/Globals.css";
+import Home from "./components/Home";
+import About from "./components/About";
+import Portifolio from "./components/Portifolio";
+import Skills from "./components/Skills";
+import Contact from "./components/Contact";
 
 function App() {
   return (
-    <div className='app'>
+    <div className="app">
       <main>
         <Home></Home>
         <About></About>
@@ -17,7 +17,7 @@ function App() {
         <Contact></Contact>
       </main>
     </div>
-  )
+  );
 }
 
-export default App
+export default App;

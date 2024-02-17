@@ -1,23 +1,23 @@
 :root {
-    --dark-gray: #5b5b5b;
+  --dark-gray: #5b5b5b;
 }
 
 .console {
-    background-color: var(--dark-gray);
-    color: rgb(235, 235, 235);
-    padding: 15px 6px;
-    width: 90%;
-    border-radius: 15px;
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.445);
-    box-sizing: border-box;
+  background-color: var(--dark-gray);
+  color: rgb(235, 235, 235);
+  padding: 15px 6px;
+  width: 90%;
+  border-radius: 15px;
+  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.445);
+  box-sizing: border-box;
 }
 
 .console-text {
-    font-size: .95em;
-    font-weight: 600;
-    padding-left: 10px;
+  font-size: 0.95em;
+  font-weight: 600;
+  padding-left: 10px;
 }
 
 .console-text span {
-    margin-left: 30px;
+  margin-left: 30px;
 }

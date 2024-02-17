@@ -1,41 +1,39 @@
 @media screen and (min-width: 480px) and (max-width: 768px) {
-    .fa-envelope {
-        height: 1rem !important;
-    }
+  .fa-envelope {
+    height: 1rem !important;
+  }
 
-    .fa-copy {
-        height: 1rem !important;
-    }
+  .fa-copy {
+    height: 1rem !important;
+  }
 
-    .contact{
-        margin-top: 24rem;
-    }
-    
+  .contact {
+    margin-top: 24rem;
+  }
 }
 @media screen and (min-width: 769px) and (max-width: 1024px) {
-    .fa-envelope {
-        height: 1rem !important;
-    }
+  .fa-envelope {
+    height: 1rem !important;
+  }
 
-    .fa-copy {
-        height: 1rem !important;
+  .fa-copy {
+    height: 1rem !important;
+  }
 
-    }
-
-    .contact{
-        margin-top: 13rem;
-    }
+  .contact {
+    margin-top: 13rem;
+  }
 }
 @media screen and (min-width: 1025px) {
-    .fa-envelope {
-        height: 1rem !important;
-    }
+  .fa-envelope {
+    height: 1rem !important;
+  }
 
-    .fa-copy {
-        height: 1rem !important;
-    }
+  .fa-copy {
+    height: 1rem !important;
+  }
 
-    .contact{
-        margin-top: 10rem;
-    }
+  .contact {
+    margin-top: 10rem;
+  }
 }

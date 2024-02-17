@@ -1,90 +1,90 @@
 :root {
-    --dark-gray: #5b5b5b;
+  --dark-gray: #5b5b5b;
 }
 
 .skills {
-    height: 90vh;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    gap: 60px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
 }
 
 .skills main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .skills header h2 {
-    height: 90px;
-    font-size: 1.3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  height: 90px;
+  font-size: 1.3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .hard-skills {
-    width: 90%;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
+  width: 90%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
 }
 
 .soft-skills {
-    background-color: #ffffff;
-    height: 40vh;
+  background-color: #ffffff;
+  height: 40vh;
 
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 
-    margin-top: 5rem;
+  margin-top: 5rem;
 }
 
 .soft-skills header {
-    height: 30%;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
+  height: 30%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .soft-skills header h3 {
-    font-size: 1.3rem;
-    margin-left: -35px;
-    width: 140px;
+  font-size: 1.3rem;
+  margin-left: -35px;
+  width: 140px;
 
-    position: relative;
+  position: relative;
 }
 
 .soft-skills header h3::before {
-    content: '';
-    position: absolute;
-    background-color: var(--dark-gray);
-    height: 25px;
-    width: 5px;
+  content: "";
+  position: absolute;
+  background-color: var(--dark-gray);
+  height: 25px;
+  width: 5px;
 
-    left: -10px;
-    top: 1;
+  left: -10px;
+  top: 1;
 
-    border-radius: 20px;
+  border-radius: 20px;
 }
 
 .soft-skills div {
-    height: 80%;
-    display: flex;
-    align-items: start;
+  height: 80%;
+  display: flex;
+  align-items: start;
 }
 
 .soft-skills div ul li {
-    list-style: none;
-    font-size: 1.1rem;
-    color: var(--dark-gray);
-    line-height: 28px;
-    font-weight: 500;
+  list-style: none;
+  font-size: 1.1rem;
+  color: var(--dark-gray);
+  line-height: 28px;
+  font-weight: 500;
 }

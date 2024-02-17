@@ -1,12 +1,12 @@
 @media screen and (min-width: 769px) and (max-width: 1230px) {
-    .swiper {
-        width: 100%;
-        max-width: 800px;
-    }
+  .swiper {
+    width: 100%;
+    max-width: 800px;
+  }
 }
 
 @media screen and (min-width: 1230px) {
-    .swiper {
-        max-width: 1250px;
-    }
+  .swiper {
+    max-width: 1250px;
+  }
 }

@@ -1,14 +1,14 @@
 :root {
-    --dark-gray: #5b5b5b;
+  --dark-gray: #5b5b5b;
 }
 
 .icon {
-    color: var(--dark-gray);
-    font-size: 2rem;
-    transition: .4s;
+  color: var(--dark-gray);
+  font-size: 2rem;
+  transition: 0.4s;
 }
 
 .icon:hover {
-    opacity: .7;
-    transform: translate(2px, -2px);
+  opacity: 0.7;
+  transform: translate(2px, -2px);
 }
