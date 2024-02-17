@@ -1,7 +1,7 @@
 .swiper {
   height: 500px;
   width: 100%;
-  max-width: 380px;
+  max-width: 330px;
   padding: 8px;
 }
 
@@ -13,4 +13,5 @@
   max-width: 380px;
   width: 80%;
   min-width: 360px;
+  margin-right: 20px !important;
 }
