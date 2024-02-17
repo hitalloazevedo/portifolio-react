@@ -1,11 +1,16 @@
 .swiper {
     height: 500px;
-    width: 90%;
+    width: 100%;
     max-width: 380px;
+    padding: 8px;
+}
+
+.swiper-wrapper {
+    width: 360px;
 }
 
 .swiper-slide {
-    background-color: coral;
-    max-width: 400px;
-    min-width: 320px;
+    max-width: 380px;
+    width: 80%;
+    min-width: 360px;
 }
