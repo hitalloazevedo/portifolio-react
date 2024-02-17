@@ -3,9 +3,9 @@ import React from "react";
 const menusOptions = [
   { id: 1, option: "Home", linkto: "#home" },
   { id: 2, option: "About", linkto: "#about" },
-  { id: 3,option: "Portifolio", linkto: "#" },
-  { id: 4,option: "Skills", linkto: "#" },
-  { id: 5,option: "Contact", linkto: "#" },
+  { id: 3,option: "Portifolio", linkto: "#portifolio" },
+  { id: 4,option: "Skills", linkto: "#skills" },
+  { id: 5,option: "Contact", linkto: "#contact" },
 ];
 
 const MenuOptions = ({ scrollClass }) => {
