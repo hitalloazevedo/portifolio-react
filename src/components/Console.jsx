@@ -13,7 +13,7 @@ const Console = () => {
         );
       </p>
       <br />
-      <TypeWriter></TypeWriter>
+      <TypeWriter yourtext={"Welcome to my portfolio website!"} letterDelay={60} phraseDelay={2000}/>
     </div>
   );
 };
