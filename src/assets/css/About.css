@@ -8,6 +8,8 @@
   align-items: center;
 
   min-height: 80vh;
+
+  scroll-margin-top: 7rem;
 }
 
 .content-about {
