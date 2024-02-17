@@ -52,6 +52,10 @@
   padding-top: 20px;
 }
 
+.content .social-icons-area > a {
+  transition: .3s;
+}
+
 .gif {
   display: none;
 }
