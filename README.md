@@ -35,7 +35,7 @@ A paragraph `<p>`it will be render with Typewritter animation.
 You can also change the component className to styling you way.
 ## Screenshots
 
-![App Screenshot]([https://i.pinimg.com/736x/60/84/c6/6084c65deb4ac74522b088d6dbcffb7b.jpg](https://i.pinimg.com/736x/74/35/b1/7435b1ee2cb20561cd29b4c5ea0f9984.jpg))
+![App Screenshot](https://i.pinimg.com/736x/74/35/b1/7435b1ee2cb20561cd29b4c5ea0f9984.jpg)
 
 
 ## Authors
