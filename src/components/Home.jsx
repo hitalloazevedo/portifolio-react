@@ -1,7 +1,7 @@
 import React from 'react'
 import '../assets/css/Home.css'
 import Console from './Console'
-import SocialIcons from './SocialIcons'
+import Icons from './Icons'
 import '../assets/css/Media-Home.css'
 import gif from '../assets/images/Programmer.gif'
 
@@ -18,8 +18,8 @@ const Home = () => {
             <Console/>
 
             <div className="social-icons-area">
-              <SocialIcons icon={'github'} link={'https://github.com/hitalloazevedo'}/>
-              <SocialIcons icon={'linkedin'} link={'https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/'}/>
+              <Icons icon={'github'} link={'https://github.com/hitalloazevedo'}/>
+              <Icons icon={'linkedin'} link={'https://www.linkedin.com/in/hitallo-azevedo-1a199a21a/'}/>
             </div>
 
         </div>
