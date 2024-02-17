@@ -36,6 +36,7 @@
     justify-content: center;
 
     transition: .3s;
+    z-index: 1000;
 }
 
 .logo {
@@ -85,6 +86,7 @@
 
 .navMenu nav ul li {
     list-style: none;
+    transition: .3s;
 }
 
 .navMenu nav ul li a{
@@ -93,4 +95,10 @@
     font-size: .93rem;
     font-weight: 600;
     line-height: 25px;
+}
+
+.navMenu nav ul li a:hover,
+.navMenu nav ul li:hover {
+    opacity: .8;
+    transform: translate(2px, -2px);
 }
