@@ -100,11 +100,11 @@
 .links a {
   font-size: 1.5em;
   color: var(--dark-gray);
-  transition: 0.5s;
+  transition: 0.3s;
 }
 
 .links a:hover {
-  transform: translate(4px, -3px);
+  transform: translate(1px, -1px) !important;
   color: var(--light-gray);
 }
 
