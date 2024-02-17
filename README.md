@@ -1,8 +1,44 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# My Portfolio Website
 
-Currently, two official plugins are available:
+This project is a improvement from my first portfolio website, a rebuild. It was built in [ReactJs](https://react.dev/), and the inspiration was the old website, I choose for mantain the essence, though, now in background is running nowadays technologies... Using [React](https://react.dev/) I was able to solve some bugs that the native Javascript had, such as an almost perfect implementation of [Swiper](https://swiperjs.com/), as well as a component implementation built by me, `TypeWriter`.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Do not forget to visit the [website](https://hitalloazevedo.netlify.app/)!.
+
+
+
+## Features
+
+- Typewriter (componente de autoria própria)
+- Navigation
+- Projects Carroussel
+- Social Links
+- Media Queries for all devices screens
+## Technologies
+
+**Client:** React, Html, Css 
+
+**Development Tools:** Vite
+
+
+## TypeWriter Component | Usage/Examples
+
+Considering you are working in components folder
+```javascript
+import TypeWriter from './TypeWriter'
+
+<TypeWriter yourtext={'example text'} letterDelay={60} phraseDelay={2000}/>
+// letterDelay recommended 60 milliseconds
+// phraseDelay recommended 2000 milliseconds
+```
+A paragraph `<p>`it will be render with Typewritter animation. 
+You can also change the component className to styling you way.
+## Screenshots
+
+![App Screenshot](https://i.pinimg.com/736x/60/84/c6/6084c65deb4ac74522b088d6dbcffb7b.jpg)
+
+
+## Authors
+
+- [@Hitallo Azevedo](https://www.github.com/hitalloazevedo)
+
