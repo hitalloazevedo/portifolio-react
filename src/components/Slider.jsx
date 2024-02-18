@@ -39,6 +39,14 @@ const projects = [
     imageUri:
       "https://i.pinimg.com/736x/cb/54/32/cb543250be8d485a210db4802120e6e4.jpg",
   },
+  {
+    title: "Portifolio Website in React",
+    description: "My own portifolio website built in React",
+    githubLink: "https://github.com/hitalloazevedo/portifolio-react",
+    projectLink: "https://hitalloazevedo.netlify.app/",
+    imageUri:
+      "https://i.pinimg.com/736x/74/35/b1/7435b1ee2cb20561cd29b4c5ea0f9984.jpg",
+  },
 ];
 
 const Slider = () => {
