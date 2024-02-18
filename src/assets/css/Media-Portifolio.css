@@ -27,3 +27,15 @@
     font-size: 1.7rem;
   }
 }
+
+@media screen and (min-height: 801px) and (max-height: 900px) {
+  .portifolio {
+    height: 84vh;
+  }
+}
+
+@media screen and (min-height: 1001px) and (max-height: 1500px) {
+  .portifolio{
+    height: 60vh;
+  }
+}
