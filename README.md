@@ -14,9 +14,9 @@ Do not forget to visit the [website](https://hitalloazevedo.netlify.app/)!.
 - Projects Carroussel
 - Social Links
 - Media Queries for all devices screens
-## Technologies
+## Technologies & Concepts
 
-**Client:** React, Html, Css 
+**Client:** React, Html, Css, Mobile First, Responsivity
 
 **Development Tools:** Vite
 
