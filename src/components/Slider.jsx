@@ -47,6 +47,14 @@ const projects = [
     imageUri:
       "https://i.pinimg.com/736x/74/35/b1/7435b1ee2cb20561cd29b4c5ea0f9984.jpg",
   },
+  {
+    title: "Todo list",
+    description: "Todo list based in a Rocketseat design developed for a course task, built in React + Typescript, also I used technologies as Css modules and Vite.",
+    githubLink: "https://github.com/hitalloazevedo/todo-rocket",
+    projectLink: "https://hitallozevedo-todolist-react.netlify.app/",
+    imageUri:
+      "https://i.pinimg.com/736x/92/27/13/9227133365b370f1fd4c485b833f0b87.jpg",
+  },
 ];
 
 const Slider = () => {
