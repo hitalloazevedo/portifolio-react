@@ -11,7 +11,6 @@ const Header = ({ children }) => {
   const [headerState, setHeaderState] = useState("");
   const [scrollClass, setScrollClass] = useState("");
   const [navBarScroll, setNavBarScroll] = useState("");
-  const [floatMenu, setFloatMenu] = useState("deactive");
 
   window.addEventListener("scroll", () => {
     window.scrollY > 80
