@@ -1,4 +1,3 @@
-import React from "react";
 import SkillCard from "./SkillCard";
 import "../assets/css/Skills.css";
 import "../assets/css/Media-Skills.css";
@@ -14,6 +13,7 @@ const Skills = () => {
           <SkillCard technology={"html"}></SkillCard>
           <SkillCard technology={"css"}></SkillCard>
           <SkillCard technology={"javascript"}></SkillCard>
+          <SkillCard technology={"react"}></SkillCard>
           <SkillCard technology={"python"}></SkillCard>
           <SkillCard technology={"git"}></SkillCard>
           <SkillCard technology={"github"}></SkillCard>

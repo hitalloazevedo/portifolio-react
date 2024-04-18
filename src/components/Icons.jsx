@@ -9,6 +9,7 @@ import {
   faJs,
   faPython,
   faLetterboxd,
+  faReact
 } from "@fortawesome/free-brands-svg-icons";
 import "../assets/css/Icons.css";
 import {
@@ -33,6 +34,7 @@ const Icons = ({ icon, link }) => {
     email: faEnvelope,
     copiar: faCopy,
     link: faLink,
+    react: faReact
   });
 
   return (
