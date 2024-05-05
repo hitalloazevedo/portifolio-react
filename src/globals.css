@@ -9,6 +9,11 @@
 
 */
 
+:root {
+  --dark-gray: #5b5b5b;
+  --light-gray: #969696;
+}
+
 * {
   font-family: "Montserrat", sans-serif;
   margin: 0;

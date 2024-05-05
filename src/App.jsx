@@ -1,5 +1,5 @@
 import "./assets/css/App.css";
-import "./assets/css/Globals.css";
+import "./globals.css";
 import Home from "./components/Home";
 import About from "./components/About";
 import Portifolio from "./components/Portifolio";
