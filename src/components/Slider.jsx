@@ -32,6 +32,14 @@ const projects = [
       "https://i.pinimg.com/736x/92/27/13/9227133365b370f1fd4c485b833f0b87.jpg",
   },
   {
+    title: "Aromas do nordeste",
+    description: "Um site de apresentação e cardápio online para um restaurante.",
+    githubLink: "https://github.com/hitalloazevedo/aromas-do-nordeste-frontenda",
+    projectLink: "https://hitalloazevedo.github.io/aromas-do-nordeste-frontend/",
+    imageUri:
+      "https://i.pinimg.com/736x/8e/30/16/8e30163de75c0c28211626eb7e9bc171.jpg",
+  },
+  {
     title: "Newsletter Landing Page",
     description: "A landing page to subscribe in a newsletter.",
     githubLink: "https://github.com/hitalloazevedo/newsletter-landing-page",
@@ -54,14 +62,6 @@ const projects = [
     projectLink: "https://hitalloazevedo.github.io/landing-page-academia/",
     imageUri:
       "https://i.pinimg.com/736x/cb/54/32/cb543250be8d485a210db4802120e6e4.jpg",
-  },
-  {
-    title: "Aromas do nordeste",
-    description: "Um site de apresentação e cardápio online para um restaurante.",
-    githubLink: "https://github.com/hitalloazevedo/aromas-do-nordeste-frontenda",
-    projectLink: "https://hitalloazevedo.github.io/aromas-do-nordeste-frontend/",
-    imageUri:
-      "https://i.pinimg.com/736x/8e/30/16/8e30163de75c0c28211626eb7e9bc171.jpg",
   },
 ];
 
