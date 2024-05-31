@@ -16,6 +16,22 @@ import { useEffect, useState } from "react";
 
 const projects = [
   {
+    title: "Portifolio Website in React",
+    description: "My own portifolio website built in React",
+    githubLink: "https://github.com/hitalloazevedo/portifolio-react",
+    projectLink: "https://hitalloazevedo.netlify.app/",
+    imageUri:
+      "https://i.pinimg.com/736x/74/35/b1/7435b1ee2cb20561cd29b4c5ea0f9984.jpg",
+  },
+  {
+    title: "Todo list",
+    description: "Todo list based in a Rocketseat design developed for a course task, built in React + Typescript, also I used technologies as Css modules and Vite.",
+    githubLink: "https://github.com/hitalloazevedo/todo-rocket",
+    projectLink: "https://hitallozevedo-todolist-react.netlify.app/",
+    imageUri:
+      "https://i.pinimg.com/736x/92/27/13/9227133365b370f1fd4c485b833f0b87.jpg",
+  },
+  {
     title: "Newsletter Landing Page",
     description: "A landing page to subscribe in a newsletter.",
     githubLink: "https://github.com/hitalloazevedo/newsletter-landing-page",
@@ -40,20 +56,12 @@ const projects = [
       "https://i.pinimg.com/736x/cb/54/32/cb543250be8d485a210db4802120e6e4.jpg",
   },
   {
-    title: "Portifolio Website in React",
-    description: "My own portifolio website built in React",
-    githubLink: "https://github.com/hitalloazevedo/portifolio-react",
-    projectLink: "https://hitalloazevedo.netlify.app/",
+    title: "Aromas do nordeste",
+    description: "Um site de apresentação e cardápio online para um restaurante.",
+    githubLink: "https://github.com/hitalloazevedo/aromas-do-nordeste-frontenda",
+    projectLink: "https://hitalloazevedo.github.io/aromas-do-nordeste-frontend/",
     imageUri:
-      "https://i.pinimg.com/736x/74/35/b1/7435b1ee2cb20561cd29b4c5ea0f9984.jpg",
-  },
-  {
-    title: "Todo list",
-    description: "Todo list based in a Rocketseat design developed for a course task, built in React + Typescript, also I used technologies as Css modules and Vite.",
-    githubLink: "https://github.com/hitalloazevedo/todo-rocket",
-    projectLink: "https://hitallozevedo-todolist-react.netlify.app/",
-    imageUri:
-      "https://i.pinimg.com/736x/92/27/13/9227133365b370f1fd4c485b833f0b87.jpg",
+      "https://i.pinimg.com/736x/8e/30/16/8e30163de75c0c28211626eb7e9bc171.jpg",
   },
 ];
 
