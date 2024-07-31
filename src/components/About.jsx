@@ -18,7 +18,7 @@ const About = () => {
             </p>
           </div>
           <p>
-            Hey there! I'm Hitallo Azevedo, and I'm 17 years old. I study web
+            Hey there! I'm Hitallo Azevedo, and I'm 18 years old. I study web
             development with a focus on front-end, I chose this area because
             it's a world of opportunities where the only limit is your
             creativity. My first experience about programming was in 2020 with
